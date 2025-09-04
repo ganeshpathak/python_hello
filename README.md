@@ -32,6 +32,12 @@ venv\Scripts\activate   # On Windows
 source venv/bin/activate # On Linux/Mac
 ```
 
+### Screenshot: Virtual Environment Activation
+
+![Virtual Environment Activation](venv_activation.png)
+
+*(Replace `venv_activation.png` with your actual screenshot file in the project root)*
+
 3. Install dependencies:
 
 ```bash
@@ -59,14 +65,22 @@ By default, the API runs on `http://127.0.0.1:5000`.
 }
 ```
 
+### Example Screenshot
+
+![HelloWorldAPI Screenshot](screenshot.png)
+
+*(Replace `screenshot.png` with your actual screenshot file in the project root)*
+
 ## Project Structure
 
 ```
 HelloWorldAPI/
-├── app.py            # Main application file
-├── requirements.txt  # Python dependencies
-├── .gitignore        # Ignored files (venv, cache, etc.)
-└── README.md         # Project documentation
+├── app.py                  # Main application file
+├── requirements.txt        # Python dependencies
+├── .gitignore              # Ignored files (venv, cache, etc.)
+├── README.md               # Project documentation
+├── venv_activation.png     # Screenshot for virtual environment activation
+└── screenshot.png          # Screenshot of API response
 ```
 
 ## License
